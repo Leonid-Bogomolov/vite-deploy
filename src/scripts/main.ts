@@ -2,6 +2,7 @@ import '../style.css'
 import typescriptLogo from '../assets/typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
+//const { BASE_URL } = import.meta.env
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
